@@ -7,7 +7,7 @@ app = Flask(__name__)
 def home_page():
     return '@Plugin'
 
-@app.route('/tele-check/',methods=['GET'])
+@app.route('/facelogin/',methods=['GET'])
 def telecheckres_page():
     user = str(request.args.get('user'))
 
